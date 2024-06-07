@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f7f7f7;
+}
+
+/* ManuBar */
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    /* position: sticky !important;
+    top: 0; */
+}
+.navbar .container .navbar-brand {
+    font-size: 40px !important;
+    font-weight: 700;
+    color: #4e4e4e;
+    letter-spacing: -0.8;
+}
+.navbar .container .nav-item {
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.navbar .container .active{
+    color: #1abb9c !important;
+}
+.navbar .container .nav-item a:hover {
+    color: #1abb9c !important;
+}
+
+/* ManuBar End */
+
+
+/* Hero Part */
+
+.HeroPart {
+    background: url(../img/hero-pk.png) no-repeat center;
+    height: 85vh !important;
+    width: 100%;
+    display: flex;
+    text-align: center !important;
+}
+.HeroCon {
+    padding-top: 150px;
+}
+
+.HeroCon h2{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -1;
+    font-size: 40px;
+}
+.HeroCon h3{
+    color: #a8a8a8;
+    font-weight: 700;
+    letter-spacing: -2;
+    font-size: 32px;
+    padding-top: 30px;
+}
+.HeroCon button {
+    margin-top: 40px;
+    background: #3f8dbf !important;
+    border: none;
+}
+
+/* Hero Part End */
+
+
+/* Service Part */
+
+.ServicePart {
+    margin-top: 40px;
+}
+.ServiceConMain {
+    position: relative;
+}
+.ServiceLogo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center !important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0;
+}
+.SL1 {
+    background-color: #9d9abf;
+}
+.SL2 {
+    background-color: #d2514b;
+}
+.SL3 {
+    background-color: #66a3c6;
+}
+.SL4 {
+    background-color: #e8c04f;
+}
+.ServiceCon{
+    padding-top: 70px;
+}
+.ServiceCon h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #4e4e4e;
+}
+
+.ServiceCon p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #616161;
+}
+.HrLine {
+    height: 1.5px;
+    width: 100%;
+    background: #dcdcdc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Service Part End */
+
+
+/* Portfolio Part */
+
+.hedar h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4e4e4e;
+    margin-bottom: 25px;
+}
+.PortfolioConMain h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4e4e4e;
+    margin-top: 25px;
+}
+.PortfolioConMain h6 {
+    color: #a8a8a8;
+    font-size: 13px;
+    font-weight: 500;
+}
+.PortfolioConMain p {
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+}
+.PortfolioConMain img {
+    width: 370px;
+    height: 260px;
+}
+.Portfolio {
+    padding-bottom: 40px;
+}
+/* Portfolio Part End */
+
+
+/* Testimonial Part */
+
+.Testimonial {
+    background-color: #efefef;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TestConMain {
+    font-size: 20px;
+    font-weight: 700;
+    color: #a1a1a1;
+    padding: 0 60px;
+}
+.Testicon {
+    font-size: 30px;
+}
+
+/* Testimonial Part End */
+
+
+/* Footer Part */
+
+.Footer {
+    width: 100%;
+    height: 65vh;
+    background-color: #1c1c1c;
+}
+.FooterCon {
+    padding-top: 40px;
+}
+.FooterCon h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #6c6c6c;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.FooterCon p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #cacaca;
+    padding-bottom: 10px;
+}
+.FooterCon .icon {
+    color: #a89574;
+}
+.location {
+    display: flex;
+    gap: 15px;
+}
+.Call {
+    display: flex;
+    gap: 15px;
+}
+.Email {
+    display: flex;
+    gap: 15px;
+}
+.FooterCon .twitter {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+.HrLine2 {
+    height: 1.5px;
+    width: 100%;
+    background: #dcdcdc;
+    margin-bottom: 20px;
+}
+.CopyRight h6 {
+    color: #cacaca;
+}
+
+/* Footer Part End */
